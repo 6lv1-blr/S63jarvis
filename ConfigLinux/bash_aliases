@@ -1,0 +1,16 @@
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias nano='nano -K'
+alias sudonano='sudo nano -K'
+alias n='nano -K'
+
+alias Histo='cat /media/ramdiskS63/Histo.out' 
+
+alias Scenario='function _Scenario() { touch /media/ramdiskS63/NumeroCompose/$1;};_Scenario'
+alias Etat='ll /media/ramdiskS63/EtatRelais/;ll /media/ramdiskS63/EtatRelais/'
+
+
+cd /home/pi/AutomatismeS63
